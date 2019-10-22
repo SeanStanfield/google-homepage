@@ -1,0 +1,138 @@
+* {
+padding:0;
+margin:0 auto;
+
+}
+
+body{
+    width:100%;
+}
+
+.navigation-parent{
+    margin-top: 5px;
+    background-color: white;
+    height:10vh;
+    width:auto;
+}
+
+.nav-item{
+    padding-right:10px;
+    padding-top: 10px;
+    text-decoration: none;
+    color:rgb(34, 34, 34);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    vertical-align: middle !important;
+    
+}
+
+div.left{
+    float:left;
+    padding-left:30px;
+    margin-top: 10px;
+    transform: scale(1.06, 0.98)
+}
+
+div.right{
+    float: right;
+    margin-right: 35px;
+    margin-top:0;
+    transform: scale(1.06, 0.98)
+}
+
+
+
+img.nav-item{
+    width:18px;
+    height:auto;
+    opacity: 0.7;
+    margin-right:5px;
+    margin-left:8px;
+}
+
+button.nav-item{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top:10px;
+    margin-right: 15px;
+    padding: 9px 13px 9px 13px;
+    border-style: none;
+    background-color:rgb(68, 132, 244);
+    border-color: rgb(65, 130, 243);
+    border-radius:2px;
+    color:rgb(230, 228, 228);
+}
+
+
+
+.search-parent{
+    background-color:white;
+    height:300px;
+    margin:100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-child{
+margin:10px;
+}
+
+.button.search-child{
+    border:none;
+    border-style:none;
+    border-radius: 3px;
+    background-color: rgb(241, 241, 241);
+    color: rgb(105, 103, 103);
+    padding:12px 15px 12px 15px;
+}
+
+.search-bar{
+    background-image: url("MagGlass.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-x: 15px;
+    background-position-y: 15px;
+    opacity: 0.4;
+    height:37px;
+    width:430px;
+    padding:5px 20px 5px 50px;
+    border-radius: 28px;
+    border-color:lightgrey;
+    box-shadow:none;
+    border:thin rgb(190, 189, 189) solid;
+    font-size:16px;
+    font-weight: normal;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.footer-container{
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    display: flex;
+    height:60px;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+
+
+.Country, .links{
+    border: thin black solid;
+
+}
+
+
+
+.link{
+    text-decoration: none;
+    color:rgb(20, 20, 20);
+
+}
